@@ -1,0 +1,16 @@
+{
+	"name":         "leap-motion-stream",
+	"description":  "A stream of leap motion data.",
+	"version":      "0.1.0",
+	"main":         "index.js",
+	"files":        ["index.js"],
+	"keywords":     ["leap", "motion", "vr", "finger", "hand", "tracking"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/leap-motion-stream",
+	"repository":   "derhuerst/leap-motion-stream",
+	"bugs":         "https://github.com/derhuerst/leap-motion-stream/issues",
+	"license":      "ISC",
+	"engines":      {"node": ">=6"},
+	"dependencies": {
+	}
+}
