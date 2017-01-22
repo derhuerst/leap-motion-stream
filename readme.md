@@ -20,7 +20,13 @@ npm install leap-motion-stream
 ```js
 const motion = require('leap-motion-stream')
 
-// todo
+const s = motion()
+s.enableGestures()
+s.on('data', (data) => {
+	console.log(data.hands)
+	console.log(data.pointables)
+	console.log(data.gestures)
+})
 ```
 
 
